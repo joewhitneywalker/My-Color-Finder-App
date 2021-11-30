@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E6E2;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+dt {
+    font-weight: bold;
+    color: white;
+}
+
+dd {
+    color: #777A73;
+    font-weight: bold;
+}
+
+#button {
+    color: white;
+    background-color: #B6C4BF;
+    border: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+}
+
+#place {
+    font-family: Arial, Helvetica, sans-serif;
+}

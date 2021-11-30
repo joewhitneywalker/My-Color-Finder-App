@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Color Finder</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+        <script src="script.js" async defer></script>
+    </head>
+    <body>
+
+    
+
+        <h1>COLOR FINDER</h1>
+        <p>This Website allows you to enter a color name and get hex, RGB and hsl color codes of a random shade to be returned to you.</p>
+        <p>Use the color picker to verify your color!</p>
+        <dl>
+        <dt>HEX</dt>
+        <dd id="hex"></dd>
+        <dt>RGB</dt>
+        <dd id="rgb"></dd>
+        <dt>HSL</dt>
+        <dd id="hsl"></dd>
+        </dl>
+
+    <form>
+        <input type="text" id="place" placeholder="Color" />
+        <input type="submit" id="button" value="Get Color Info" />
+    </form>   
+    
+    <label id="colorSelector" for="colorpicker">Color Picker:</label>
+    <input type="color" id="colorpicker" value="#B6C4BF">
+    </body>
+</html>
